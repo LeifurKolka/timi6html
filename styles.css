@@ -1,0 +1,74 @@
+/* Header CSS */
+
+.header-div{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: space-around
+}
+
+.header-div-2{
+    background-color:aliceblue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header-div-2 p {
+    margin: 0px;
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    height:min-content
+}
+/* ctrl K C til að skrifa notes */
+.p-2{
+    display: flex;
+    align-self: flex-end;
+    width: 50%;
+}
+
+/* Main CSS */
+
+.box-container{
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* fyrstu boxin */
+
+.box{
+    display: flex;
+    padding: 20px;
+    width: 50px;
+    background-color: darksalmon;
+    margin: 10px;
+}
+
+.box1{
+    background-color: yellow;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
+
+/* seinni boxin */
+
+.box-container-2{
+    background-color: violet;
+    display: flex;
+    padding: 20px;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
